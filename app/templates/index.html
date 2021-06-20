@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Neel's First App</title>
+</head>
+
+<body>
+
+  <h1>Welcome to Image Similarity Website</h1>
+  
+  <form action='/' method = 'post' enctype = 'multipart/form-data'>
+    <label for="image1_upload">Choose 1st picture:</label>
+    <input type="file"
+        id="image1_upload" name="image1_upload"
+        accept="image/png, image/jpeg">
+ 
+    <label for="image2_upload">Choose 2nd picture:</label>
+    <input type="file"
+        id="image2_upload" name="image2_upload"
+        accept="image/png, image/jpeg">
+    
+    <input type="submit">
+  </form>  
+  
+  <!-- <img src="{{image1_path}}" alt = "Image 1"> -->
+
+  <!-- <h5>{{pred}}</h5> -->
+  
+
+</body>
+
+</html>
+
